@@ -1,0 +1,6 @@
+def factorial(num):
+    c=1
+    while(num!=1):
+        c=c*num
+        num-=1
+    return(c)
